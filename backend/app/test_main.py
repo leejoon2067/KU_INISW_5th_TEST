@@ -10,7 +10,7 @@ keyword_extractor = KeywordExtractor()
 
 def read_article_text(file_path):
     """로컬 파일에서 HTML 기사를 읽고 텍스트를 추출하는 함수"""
-    article_path = Path('C:/Users/leejo/OneDrive/바탕 화면/Langchain_env/data/articles/sample2.html') # 추후 웹 환경에서 html 파일 읽어들이는 코드로 대체
+    article_path = Path('.../sample2.html') # 추후 웹 환경에서 html 파일 읽어들이는 코드로 대체
     if not article_path.exists():
         raise FileNotFoundError("Article file not found.")
     
